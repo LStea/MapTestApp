@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj obecną pozycję"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0, 0"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/latlangText"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nazwa"
+        android:id="@+id/nameText"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Opis"
+        android:id="@+id/descriptionText"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Promień miejsca (metry)"
+        android:inputType="numberDecimal"
+        android:id="@+id/radiusText"/>
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Dodaj"
+        android:layout_gravity="center"
+        android:id="@+id/addButton"/>
+</LinearLayout>
